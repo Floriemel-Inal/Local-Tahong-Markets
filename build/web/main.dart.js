@@ -85330,7 +85330,7 @@ m=(r==null?$.bA=$.dH():r).e8(q)
 A.bN(m,n,!0)
 n=t.N
 r=t.z
-return new A.SC(s,A.yR(new A.cS(m)),A.b([A.ab(["id","1","imageUrl",p,"name","Tahong Fresh 1","price",10],n,r),A.ab(["id","2","imageUrl",o,"name","Tahong Fresh 2","price",20],n,r),A.ab(["id","3","imageUrl","assets/images/tahong3.jpg","name","Tahong Fresh 3","price",15],n,r),A.ab(["id","4","imageUrl","assets/images/tahong4.jpg","name","Tahong Fresh 4","price",25],n,r),A.ab(["id","5","imageUrl",p,"name","Tahong Fresh 5","price",30],n,r),A.ab(["id","6","imageUrl",o,"name","Tahong Fresh 6","price",18],n,r)],t.H7),null,null)}}
+return new A.SC(s,A.yR(new A.cS(m)),A.b([A.ab(["id","1","imageUrl",p,"name","Store A Tahong per kilo","price",100],n,r),A.ab(["id","2","imageUrl",o,"name","Store B Tahong per kilo","price",110],n,r),A.ab(["id","3","imageUrl","assets/images/tahong3.jpg","name","Tinolang Tahong","price",150],n,r),A.ab(["id","4","imageUrl","assets/images/tahong4.jpg","name","Adobo Tahong","price",130],n,r),A.ab(["id","5","imageUrl",p,"name","Store C Tahong per kilo","price",105],n,r),A.ab(["id","6","imageUrl",o,"name","Store D Tahong per kilo","price",100],n,r)],t.H7),null,null)}}
 A.SC.prototype={
 aA(){var s,r,q
 this.aS()
@@ -85519,7 +85519,7 @@ default:return"Error: "+(r==null?"Unknown Firebase error":r)}}s=J.i3(a)
 if(B.d.n(s.k(a),"network")||B.d.n(s.k(a),"connection"))return"Network error. Please check your internet connection."
 return"Failed to add item to cart. Please try again."},
 anQ(a,b,c,d,e,f){var s=null,r=A.co(16)
-return A.axF(new A.bs(B.mQ,A.cX(A.b([A.ik(A.a_o(A.co(12),A.KT(b,new A.ana(),B.fc,s,1/0)),3),B.kz,new A.kx(1,B.ek,A.bD(e,2,B.aF,s,s,A.e5(s,s,B.D0,s,s,s,s,s,s,s,s,12,s,s,B.aA,s,s,!0,s,s,s,s,s,s,s,s),B.f0,s),s),B.OY,A.bD("$"+f,s,s,s,s,A.e5(s,s,B.fq,s,s,s,s,s,s,s,s,13,s,s,B.bO,s,s,!0,s,s,s,s,s,s,s,s),s,s),B.kz,A.dA(A.ayF(B.FK,B.UB,new A.anb(this,a,b,e,f,c),A.oH(s,s,B.hk,s,s,s,s,s,s,s,s,s,B.mP,s,new A.bZ(A.co(6),B.q),s,s,s,s)),28,1/0)],t.p),B.x,B.B,B.bj),s),B.j,4,d,s,new A.bZ(r,B.q))},
+return A.axF(new A.bs(B.mQ,A.cX(A.b([A.ik(A.a_o(A.co(12),A.KT(b,new A.ana(),B.fc,s,1/0)),3),B.kz,new A.kx(1,B.ek,A.bD(e,2,B.aF,s,s,A.e5(s,s,B.D0,s,s,s,s,s,s,s,s,12,s,s,B.aA,s,s,!0,s,s,s,s,s,s,s,s),B.f0,s),s),B.OY,A.bD("\u20b1"+f,s,s,s,s,A.e5(s,s,B.fq,s,s,s,s,s,s,s,s,13,s,s,B.bO,s,s,!0,s,s,s,s,s,s,s,s),s,s),B.kz,A.dA(A.ayF(B.FK,B.UB,new A.anb(this,a,b,e,f,c),A.oH(s,s,B.hk,s,s,s,s,s,s,s,s,s,B.mP,s,new A.bZ(A.co(6),B.q),s,s,s,s)),28,1/0)],t.p),B.x,B.B,B.bj),s),B.j,4,d,s,new A.bZ(r,B.q))},
 N(a){var s,r,q=null,p=A.bD("Local Tahong Market",q,q,q,q,A.e5(q,q,B.j,q,q,q,q,q,q,q,q,28,q,q,B.aA,q,q,!0,q,q,q,q,q,q,q,q),q,q),o=this.x
 o=new A.zQ(o,A.Y(o).i("zQ<1>")).ghk().ea(0,new A.an8(this),t.l7).e2(0)
 s=A.aBo(o,!0,!0,!0)
