@@ -22,38 +22,38 @@ class _MainPageState extends State<MainPage> with TickerProviderStateMixin {
     {
       'id': '1',
       'imageUrl': 'assets/images/tahong1.jpg',
-      'name': 'Tahong Fresh 1',
-      'price': 10,
+      'name': 'Store A Tahong per kilo',
+      'price': 100,
     },
     {
       'id': '2',
       'imageUrl': 'assets/images/tahong2.jpg',
-      'name': 'Tahong Fresh 2',
-      'price': 20,
+      'name': 'Store B Tahong per kilo',
+      'price': 110,
     },
     {
       'id': '3',
       'imageUrl': 'assets/images/tahong3.jpg',
-      'name': 'Tahong Fresh 3',
-      'price': 15,
+      'name': 'Tinolang Tahong',
+      'price': 150,
     },
     {
       'id': '4',
       'imageUrl': 'assets/images/tahong4.jpg',
-      'name': 'Tahong Fresh 4',
-      'price': 25,
+      'name': 'Adobo Tahong',
+      'price': 130,
     },
     {
       'id': '5',
       'imageUrl': 'assets/images/tahong1.jpg',
-      'name': 'Tahong Fresh 5',
-      'price': 30,
+      'name': 'Store C Tahong per kilo',
+      'price': 105,
     },
     {
       'id': '6',
       'imageUrl': 'assets/images/tahong2.jpg',
-      'name': 'Tahong Fresh 6',
-      'price': 18,
+      'name': 'Store D Tahong per kilo',
+      'price': 100,
     },
   ];
 
@@ -410,7 +410,7 @@ class _MainPageState extends State<MainPage> with TickerProviderStateMixin {
             ),
             const SizedBox(height: 2),
             Text(
-              '\$${price}', // This will display the actual price value like "$10", "$20", etc.
+              '₱${price}', // This will display the actual price value 
               style: TextStyle(
                 fontWeight: FontWeight.w600,
                 fontSize: 13,

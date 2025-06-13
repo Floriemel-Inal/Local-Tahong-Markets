@@ -31,7 +31,11 @@ migrate_working_dir/
 .flutter-plugins-dependencies
 .pub-cache/
 .pub/
+
+# Ignore entire build folder except for build/web (used for gh-pages deployment)
 /build/
+!/build/web/
+!/build/web/**
 
 # Symbolication related
 app.*.symbols
